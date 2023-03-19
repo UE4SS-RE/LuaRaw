@@ -513,5 +513,7 @@ struct lua_Debug {
 * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ******************************************************************************/
 
+void LuaLock(lua_State* L);
+void LuaUnlock(lua_State* L);
 
 #endif

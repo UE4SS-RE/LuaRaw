@@ -34,6 +34,7 @@ set(${TARGET}_Sources
         "${CMAKE_CURRENT_SOURCE_DIR}/src/ltm.c"
         #${CMAKE_CURRENT_SOURCE_DIR}/"src/lua.c"
         #${CMAKE_CURRENT_SOURCE_DIR}/"src/luac.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/luauser.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/lundump.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/lutf8lib.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/src/lvm.c"

@@ -778,9 +778,8 @@
 ** without modifying the main part of the file.
 */
 
-
-
-
+#define lua_lock(L) LuaLock(L)
+#define lua_unlock(L) LuaUnlock(L)
 
 #endif
 

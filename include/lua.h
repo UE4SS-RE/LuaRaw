@@ -516,5 +516,7 @@ struct lua_Debug {
 
 void LuaLock(lua_State* L);
 void LuaUnlock(lua_State* L);
+void LuaLockInitial(lua_State* L);
+void LuaLockFinal(lua_State* L);
 
 #endif

@@ -16,7 +16,7 @@ void LuaLockInitial(lua_State* L)
     }
 }
 
-void LuaLockFinal(lua_State* L) /* Not called by Lua. */
+void LuaLockFinal(lua_State* L)
 {
     /* Destroy a mutex. */
     if (Gl.Init)
